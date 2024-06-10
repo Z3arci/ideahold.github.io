@@ -12,11 +12,6 @@ body {
     max-width: 390px;
 }
 
-body {
-    font-family: "Poppins", sans-serif;
-    height: 100vh;
-}
-
 a {
     color: #92badd;
     display: inline-block;
@@ -40,7 +35,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    min-height: 100%;
+    max-height: 100%;
     padding: 20px;
 }
 
@@ -50,6 +45,7 @@ h2 {
     background: #fff;
     padding: 30px;
     width: 90%;
+    height: 580px;
     max-width: 450px;
     position: relative;
     padding: 0px;
@@ -183,7 +179,6 @@ input[type=text]:placeholder {
     }
 }
 
-/* Simple CSS3 Fade-in Animation */
 @-webkit-keyframes fadeIn {
     from {
         opacity: 0;
@@ -248,6 +243,14 @@ input[type=text]:placeholder {
 }
 
 .fadeIn.fourth {
+    margin-top: 10px;
+    padding-top: 15px;
+    align-items: center;
+    height: 50px;
+    width: 220px;
+    border-radius: 5px;
+    background-color: #56baed;
+    color: #f6f6f6;
     -webkit-animation-delay: 1s;
     -moz-animation-delay: 1s;
     animation-delay: 1s;
@@ -267,6 +270,8 @@ input[type=text]:placeholder {
 .underlineHover:hover {
     color: #0d0d0d;
 }
+
+
 
 .underlineHover:hover:after {
     width: 100%;
