@@ -10,22 +10,16 @@
 
 <body>
     <div class="container">
-        <div class="wrapper fadeInDown">
-            <div id="formContent">
-                <h2 class="active"> Регистрация </h2>
-                <div class="fadeIn first">
-                    <img src="people.png" id="icon" alt="User Icon" />
+        <div class="wrapper">
+            <div class="loading-box">
+                <p class="loading-title">Загрузка</p>
+                <div class="loading-circle">
+                    <span class="loading-count"><span id="loadingNumber">0</span>%</span>
                 </div>
-                <form>
-                    <input class="oval-lg" id="name" type="text" value="Имя" />
-                    <input class="oval-lg" id="surname" type="text" value="Фамилия" />
-                    <input class="oval-lg" id="group" type="text" value="Группа" />
-                    <input class="oval-lg" id="password" type="text" value="Пароль" />
-                </form>
-                <button href="index1.html" id="link-button" class="oval-lg"><a href="index1.html">Log In</a></button>
             </div>
+            <script src="app.js"></script>
+            <script src="http://telegram.org/js/telegram-web-app.js"></script>
         </div>
-        <script src="http://telegram.org/js/telegram-web-app.js"></script>
     </div>
 </body>
 
