@@ -56,7 +56,6 @@ h2 {
     text-align: center;
 }
 
-
 #formFooter {
     background-color: #EBECF0;
     border-top: 1px solid #dce8f1;
@@ -72,7 +71,7 @@ h2.active {
 }
 
 .news {
-    height: 30vh;
+    height: 29vh;
     background: #f6f6f6;
 }
 
@@ -131,5 +130,42 @@ ul {
 
             }
         }
+    }
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
     }
 }
