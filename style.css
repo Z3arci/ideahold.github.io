@@ -15,6 +15,11 @@ body {
     max-width: 390px;
 }
 
+p {
+    color: #0d0d0d;
+    border-bottom: 3px solid #36D7E0;
+}
+
 .wrapper {
     display: flex;
     align-items: center;
@@ -35,7 +40,9 @@ body {
     align-items: center;
     color: #F0F8FF;
     border-radius: 12px;
-    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.5), -4px -4px 16px rgba(255, 255, 255, 0.05);
+    background-color: #EBECF0;
+    -b-webkit-box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
 }
 
 .loading-title {
@@ -53,9 +60,8 @@ body {
     align-items: center;
     width: 180px;
     height: 180px;
-    background: conic-gradient(from 0deg at 50% 50%, rgba(111, 123, 247, 1) 0%, rgba(155, 248, 244, 1) 0%, #101012 0%);
+    background: conic-gradient(from 0deg at 50% 50%, rgb(0, 21, 250) 0%, #36D7E0 0%, rgb(7, 8, 24) 0%);
     border-radius: 100px;
-    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.75), -4px -4px 16px rgba(255, 255, 255, 0.1);
     animation: spin 1s infinite linear;
 }
 
@@ -78,12 +84,13 @@ body {
     left: 3px;
     width: 174px;
     height: 174px;
+    color: #0d0d0d;
     border-radius: 100px;
-    background-color: rgb(31, 37, 110);
-    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.75) inset, -4px -4px 16px rgba(255, 255, 255, 0.1) inset;
+    background-color: #EBECF0;
+    box-shadow: inset -4px -4px 6px -1px white, inset 2px 2px 8px -1px rgba(72, 79, 96, 0.5);
     animation: spin 1s infinite linear reverse;
 }
 
 .loading-count #loadingNumber {
-    font-size: 4em;
+    font-size: 3.2em;
 }
