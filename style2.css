@@ -71,8 +71,28 @@ h2.active {
 }
 
 .news {
-    height: 29vh;
+    height: 50vh;
     background: #f6f6f6;
+}
+
+.icon-imge{
+    height: 40px;
+    width: 55px;
+}
+
+.icon-imge1{
+    height: 35px;
+    width: 40px;
+}
+
+.icon-imge2{
+    height: 35px;
+    width: 35px;
+}
+
+.icon-imge3{
+    height: 35px;
+    width: 40px;
 }
 
 ul {
